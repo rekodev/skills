@@ -1,0 +1,14 @@
+{
+  "name": "rekodev",
+  "owner": { "name": "rekodev", "url": "https://github.com/rekodev" },
+  "description": "Agent skills by rekodev.",
+  "plugins": [
+    {
+      "name": "zeroguess",
+      "source": "./plugins/zeroguess",
+      "description": "Stops your agent from guessing. When a request is ambiguous, it asks the few questions that matter before starting. Clear requests go straight through.",
+      "category": "productivity",
+      "keywords": ["clarify", "requirements", "planning", "questions", "ambiguity"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "zeroguess",
+  "displayName": "Zero Guess",
+  "version": "1.0.0",
+  "description": "Stops your agent from guessing. When a request is ambiguous, it asks the few questions that matter before starting. Clear requests go straight through.",
+  "author": { "name": "Arturas Tyskevicius" },
+  "homepage": "https://github.com/rekodev/skills/tree/main/plugins/zeroguess",
+  "repository": "https://github.com/rekodev/skills",
+  "documentationUrl": "https://github.com/rekodev/skills/tree/main/plugins/zeroguess#readme",
+  "supportUrl": "https://github.com/rekodev/skills/issues",
+  "privacyPolicyUrl": "https://github.com/rekodev/skills/tree/main/plugins/zeroguess#data",
+  "license": "MIT",
+  "keywords": ["clarify", "requirements", "planning", "questions", "ambiguity"]
+}
