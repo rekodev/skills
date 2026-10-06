@@ -25,8 +25,9 @@ Each case below ran three times with Zero Guess and three times without it, grad
 | Request | With | Without | What changed |
 | --- | --- | --- | --- |
 | "Add an export feature to this todo CLI" | 1.00 | 0.00 | Without it, the agent built the export on guesses every time. With it, the agent read the repo, then asked about format and scope. |
+| "Reword my RFC, my PM said it's too technical" | 1.00 | 0.00 | Without it, the agent rewrote the RFC on guesses every time. With it, the agent asked who reads it now and which details must stay. |
 | "Help me plan a trip next month" | 1.00 | 0.33 | It asks where, when and budget, with a recommended pick, instead of planning a trip you never described. |
-| "Add tests for the slugify helper" | 0.89 | 0.78 | It looks up the test setup instead of asking about it. |
+| "Add tests for the slugify helper" | 1.00 | 0.89 | It looks up the test setup instead of asking about it. |
 | "Rename `tmp` to `total` in src/sum.js" | 1.00 | 1.00 | No questions. Clear requests stay fast. |
 
 The suite lives in [`evals/`](evals) and runs with `claude plugin eval . --scaffold` from this folder.
