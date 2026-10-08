@@ -6,7 +6,7 @@ Agent skills I use and publish. Each one lives in its own folder under `plugins/
 
 | Plugin | What it does |
 | --- | --- |
-| [Zero Guess](plugins/zeroguess) | Stops your agent from guessing. When a request is ambiguous, it asks the few questions that matter before starting. Clear requests go straight through. |
+| [Zero Guess](plugins/zeroguess) | Stops your agent from guessing. When a request is ambiguous, it asks multiple-choice questions round after round until nothing is left to guess. Clear requests go straight through. |
 
 ## Install
 

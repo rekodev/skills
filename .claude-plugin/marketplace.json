@@ -6,7 +6,7 @@
     {
       "name": "zeroguess",
       "source": "./plugins/zeroguess",
-      "description": "Stops your agent from guessing. When a request is ambiguous, it asks the few questions that matter before starting. Clear requests go straight through.",
+      "description": "Stops your agent from guessing. When a request is ambiguous, it asks multiple-choice questions round after round until nothing is left to guess. Clear requests go straight through.",
       "category": "productivity",
       "keywords": ["clarify", "requirements", "planning", "questions", "ambiguity"]
     }

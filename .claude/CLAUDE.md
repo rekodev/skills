@@ -16,10 +16,10 @@ A public repo of agent skills. Each plugin lives in `plugins/<name>/` with its o
 
 ## Zero Guess (`plugins/zeroguess`)
 
-One skill, `clarify`. Every guess is a **fact** (look it up), **load-bearing** (ask) or a **default** (pick and state); use these words in the skill, README and evals.
+One skill, `clarify`. Every guess is a **fact** (look it up) or a **choice** (ask, however small, then ask what the answer opens); use these words in the skill, README and evals. **Defaults I picked** only holds choices the user handed back.
 
 - The skill is model-invoked, so its `description` is the trigger. A request it should catch but doesn't is a `description` fix plus an eval case.
-- Asking nothing when no guess is load-bearing is what keeps it from over-triggering; never weaken that line.
+- Asking nothing when no choice is open is what keeps it from over-triggering; never weaken that line.
 - Software-specific guidance lives in `skills/clarify/DEVELOPMENT.md`, not in `SKILL.md`.
 
 ## Checks
