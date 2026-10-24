@@ -9,6 +9,13 @@
       "description": "Stops your agent from guessing. When a request is ambiguous, it asks multiple-choice questions round after round until nothing is left to guess. Clear requests go straight through.",
       "category": "productivity",
       "keywords": ["clarify", "requirements", "planning", "questions", "ambiguity"]
+    },
+    {
+      "name": "zerogap",
+      "source": "./plugins/zerogap",
+      "description": "Stops you guessing whether you know it. Quizzes you on a topic in rounds, says plainly what was wrong and why, and stops when you've got it.",
+      "category": "learning",
+      "keywords": ["quiz", "learning", "study", "prep", "feedback"]
     }
   ]
 }

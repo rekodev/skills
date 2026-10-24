@@ -1,0 +1,14 @@
+{
+  "name": "zerogap",
+  "displayName": "Zero Gap",
+  "version": "1.0.0",
+  "description": "Quizzes you on a topic in rounds until you've got it. Says plainly what was wrong and why, and builds every question from your conversation or the material you share.",
+  "author": { "name": "Arturas Tyskevicius" },
+  "homepage": "https://github.com/rekodev/skills/tree/main/plugins/zerogap",
+  "repository": "https://github.com/rekodev/skills",
+  "documentationUrl": "https://github.com/rekodev/skills/tree/main/plugins/zerogap#readme",
+  "supportUrl": "https://github.com/rekodev/skills/issues",
+  "privacyPolicyUrl": "https://github.com/rekodev/skills/tree/main/plugins/zerogap#data",
+  "license": "MIT",
+  "keywords": ["quiz", "learning", "study", "prep", "feedback"]
+}
