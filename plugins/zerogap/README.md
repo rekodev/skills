@@ -13,7 +13,7 @@ Zero Gap is one skill that turns your agent into a direct study partner:
           Round N: three questions, typed answers
                        │
                        ▼
-     ✅ right   ⚠️ partly   ❌ wrong  +  what was missing and why
+   ✅ Right   🟡 Partly   ❌ Not quite  +  what was missing and why
                        │
           gaps left? ──┴── next round on the weakest areas
                        │
@@ -24,7 +24,7 @@ Zero Gap is one skill that turns your agent into a direct study partner:
      wrap-up: solid now · weakest at the start · still worth a look
 ```
 
-The questions come from your material, not from a generic question bank. When an answer is off, it tells you what was missing, usually the *why*, without hints or "try again". Ask something back mid-round and it answers, because your question shows exactly what isn't clear yet. No fixed number of rounds: it keeps going until the answers come back right.
+The questions come from your material, not from a generic question bank. When an answer is off, it tells you what was missing, usually the *why*, without hints or "try again". Ask something back mid-round and it answers, because your question shows exactly what isn't clear yet. Push back on a grade with a good reason and it changes the grade. No fixed number of rounds: it keeps going until the answers come back right.
 
 ## A graded round
 
@@ -35,7 +35,7 @@ Round 2: why risk-based approvals cut review time
    ✅ Right. Changes to auth, billing and migrations.
 
 2. Why not just lower the approval count everywhere?
-   ⚠️ Partly. Fewer approvals does save time, but the proposal's point is
+   🟡 Partly. Fewer approvals does save time, but the proposal's point is
    where the time goes: most review hours are spent on low-risk changes.
 
 3. What does the team lose if a risky change is labelled low-risk?
@@ -54,7 +54,7 @@ It works in any agent that reads skills, including Claude (chat, Cowork and Clau
 
 **Meeting prep.** "Quiz me on proposal.md, I'm presenting it to the team on Friday." The questions come from the proposal and lean toward what the team is likely to push back on, and the last round has you practise the pushback.
 
-**Something from this conversation.** "Okay, quiz me on what we just covered about database indexes." The questions come from the discussion, and the gaps decide where the next round goes.
+**Code your agent wrote.** "Before I merge this, quiz me on the changes you just made." The questions come from the diff and the conversation behind it: why it's built this way, what breaks if an input is missing, what a reviewer will ask. You merge code you can explain.
 
 **An interview.** "I've got a system design interview Thursday, here are my notes on caching. Quiz me." Typed answers in your own words, graded straight, until you can explain each idea without the notes.
 
@@ -62,7 +62,7 @@ It works in any agent that reads skills, including Claude (chat, Cowork and Clau
 
 - Every question is about your material, not generic trivia.
 - A wrong answer tells you what was missing and why, not a hint.
-- A question you ask back gets a real answer.
+- A question you ask back gets a real answer, and a good pushback changes the grade.
 - It ends when you've got it, not after a set number of questions.
 
 ## Install

@@ -21,7 +21,7 @@ Start broad and find where the gaps are, then spend later rounds on the weakest 
 
 ## Grading
 
-Grade each answer as ✅ right, ⚠️ partly or ❌ wrong, then name what was missing or off, and why it matters. Usually the missing piece is the reason, not the fact. Tell the answer straight, without a hint ladder and without "try again". When an answer is right for a reason other than the one in the material, say so and keep the credit.
+Grade each answer as ✅ Right, 🟡 Partly or ❌ Not quite, then name what was missing or off, and why it matters. Usually the missing piece is the reason, not the fact. Tell the answer straight, without a hint ladder and without "try again". When an answer is right for a reason other than the one in the material, say so and keep the credit. When the user pushes back on a grade with a good reason, change the grade and say why.
 
 Keep the grading short: a line or two per answer, longer only where the gap is the point of the topic. Then move to the next round.
 
