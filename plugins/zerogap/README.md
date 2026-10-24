@@ -48,7 +48,7 @@ Round 2: why risk-based approvals cut review time
 
 Your agent loads it on its own when you ask to be quizzed, tested or drilled on something, or to get ready to explain or defend it. You can also call it directly, as `/zerogap:quiz` in Claude Code.
 
-It works in any agent that reads skills, including Claude (chat, Cowork and Claude Code). Where the app offers clickable questions, recall checks use them; elsewhere they are lettered, so you can answer in one line.
+It works in any agent that reads skills, including Claude (chat, Cowork and Claude Code). Every answer is typed, in your own words, never picked from a list. Where the app offers clickable menus, each question has a box for your answer and buttons to skip it or stop the quiz; elsewhere, just say skip or stop.
 
 ## Examples
 
@@ -64,6 +64,7 @@ It works in any agent that reads skills, including Claude (chat, Cowork and Clau
 - A wrong answer tells you what was missing and why, not a hint.
 - A question you ask back gets a real answer, and a good pushback changes the grade.
 - It ends when you've got it, not after a set number of questions.
+- You can skip a question or stop the quiz anytime, with no argument.
 
 ## Install
 

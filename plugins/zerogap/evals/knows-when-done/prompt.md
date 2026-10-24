@@ -15,6 +15,6 @@ Round 3
    My answer: For sensitive data like account pages, where nothing should be written to disk at all.
 
 3. Why does `immutable` help with fingerprinted assets?
-   My answer: The URL changes when the file changes, so the browser never needs to revalidate while it's fresh.
+   My answer: The URL changes when the file changes, so the browser can skip revalidating it even when the user reloads the page.
 
 I think I've got it now.
