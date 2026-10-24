@@ -1,7 +1,7 @@
 {
   "name": "zeroguess",
   "displayName": "Zero Guess",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Stops your agent from guessing. When a request is ambiguous, it asks multiple-choice questions round after round until nothing is left to guess. Clear requests go straight through.",
   "author": { "name": "Arturas Tyskevicius" },
   "homepage": "https://github.com/rekodev/skills/tree/main/plugins/zeroguess",
