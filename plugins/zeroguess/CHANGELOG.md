@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Requests to be quizzed on a topic no longer trigger the skill. It is for settling a task before doing it, not for testing what the user knows.
+- New eval case: a quiz request gets no clarifying questions.
+
 ## 1.1.0
 
 - Every choice that can't be looked up is asked, however small, in multiple-choice rounds where each answer's follow-ups go into the next round, until nothing is left to guess.

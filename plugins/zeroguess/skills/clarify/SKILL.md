@@ -1,6 +1,6 @@
 ---
 name: clarify
-description: Settle every open choice before doing the work, looking up what can be found and asking the rest in multiple-choice rounds that dig into each answer until nothing is left to guess. Use when a request leaves anything open that would otherwise be guessed, such as a feature or change with unstated scope or behavior, a plan or document missing who, where, when or how much, a rewrite, restructure or shortening where who reads it, how far to cut or what must stay is not settled, a message, post, invite or scheduled action whose recipient, channel, time or wording is not given, or when the user asks to be clarified with or quizzed until certain. Applies even when only one detail is missing. Skip for clear, mechanical or purely informational requests.
+description: Settle every open choice before doing the work, looking up what can be found and asking the rest in multiple-choice rounds that dig into each answer until nothing is left to guess. Use when a request leaves anything open that would otherwise be guessed, such as a feature or change with unstated scope or behavior, a plan or document missing who, where, when or how much, a rewrite, restructure or shortening where who reads it, how far to cut or what must stay is not settled, a message, post, invite or scheduled action whose recipient, channel, time or wording is not given, or when the user asks to be clarified with before the work starts. Applies even when only one detail is missing. Skip for clear, mechanical or purely informational requests.
 ---
 
 # Clarify
