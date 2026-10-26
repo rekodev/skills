@@ -13,7 +13,7 @@
     {
       "name": "zerogap",
       "source": "./plugins/zerogap",
-      "description": "Stops you guessing whether you know it. Quizzes you on a topic in rounds, says plainly what was wrong and why, and stops when you've got it.",
+      "description": "Stops you guessing whether you know it. Quizzes you one question at a time, says plainly what was wrong and why, and stops when you've got it.",
       "category": "learning",
       "keywords": ["quiz", "learning", "study", "prep", "feedback"]
     }
