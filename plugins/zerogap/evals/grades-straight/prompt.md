@@ -1,5 +1,5 @@
 ---
-description: A wrong answer mid-quiz. Grade it straight in the reply, say what was missing and why with no hints, then follow up on the same point.
+description: A wrong answer mid-quiz. Grade it straight in the reply, say what was missing and why with no hints, then go deeper on the same part.
 max_turns: 5
 allowed_tools: [Skill, AskUserQuestion]
 ---

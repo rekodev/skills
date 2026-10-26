@@ -1,8 +1,8 @@
 {
   "name": "zerogap",
   "displayName": "Zero Gap",
-  "version": "1.1.0",
-  "description": "Quizzes you on a topic one question at a time until you've got it. Grades each answer straight away, says plainly what was wrong and why, and builds every question from your conversation or the material you share.",
+  "version": "1.1.1",
+  "description": "Quizzes you on a topic part by part, one question at a time, until you've got it. Grades each answer straight away, says plainly what was wrong and why, goes deeper where you're shaky, and builds every question from your conversation or the material you share.",
   "author": { "name": "Arturas Tyskevicius" },
   "homepage": "https://github.com/rekodev/skills/tree/main/plugins/zerogap",
   "repository": "https://github.com/rekodev/skills",
