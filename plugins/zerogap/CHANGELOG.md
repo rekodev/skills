@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.1
+
+- The grade is a visible message sent before the next question, never kept only in the agent's reasoning, so the ✅, 🟡 or ❌ always shows.
+- The topic is split into parts, listed in one line before the first question. Each part opens with an easy question on its key idea.
+- After a 🟡 or ❌, the right answer is given and the next question goes deeper on the same part, building on the correction instead of asking it again from another angle. A ✅ moves to the next part when it covers the part, and goes deeper when there is more to it.
+- A part gets at most 4 questions, and what is left of it goes under "Still worth a look". This replaces the offer to leave a point after a couple of misses.
+- A correction covers only what that question asked, not the whole topic.
+- Each grade ends with a progress line, such as "Part 2/4 · ✅3 🟡1 ❌1".
+- One thing per question, and no hints inside questions.
+- The question tool's header names the current part instead of the question number.
+
 ## 1.1.0
 
 - One question at a time instead of rounds of three, each opened with "Question N" and what it covers.

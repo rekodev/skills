@@ -1,6 +1,6 @@
 # Zero Gap
 
-**Stop guessing whether you know it.** Your agent quizzes you one question at a time, says plainly what each answer got wrong and why before asking the next, and stops when you both agree you've got it.
+**Stop guessing whether you know it.** Your agent splits the topic into parts and quizzes you one question at a time. It says plainly what each answer got wrong and why before asking the next, goes deeper on a part until you've got it, and stops when every part is done.
 
 Feeling ready for a meeting isn't the same as being able to explain the idea or defend it when someone pushes back. Reading the doc once more doesn't show you the gaps. Being asked does.
 
@@ -10,35 +10,43 @@ Zero Gap is one skill that turns your agent into a direct study partner:
    material you shared or the conversation so far
                        │
                        ▼
-        Question N: one question, typed answer
+        the topic split into parts, listed up front
                        │
                        ▼
-   ✅ Right   🟡 Partly   ❌ Not quite  +  what was missing and why
+     Question N: one question on the current part, typed answer
                        │
-     🟡 or ❌? ── follow-ups on the same point until it's ✅
+                       ▼
+   ✅ Right   🟡 Partly   ❌ Not quite  +  the fix for that question
+                Part 2/4 · ✅3 🟡1 ❌1
                        │
-          gaps left? ──┴── next question on the weakest areas
+     🟡, ❌ or more to it? ── a deeper question on the same part
+                       │
+          part done? ──┴── next part, or the wrap-up after the last
                        │
                        ▼
      wrap-up: solid now · weakest at the start · still worth a look
 ```
 
-The questions come from your material, not from a generic question bank. Each answer is graded the moment you send it. When it's off, you hear what was missing, usually the *why*, without hints or "try again", and the follow-ups stay on that point until you get it right. If the gap is in the basics underneath, the grade covers them in a line and the quiz stays on your material. Ask something back instead of answering and it answers, because your question shows exactly what isn't clear yet. Push back on a grade with a good reason and it changes the grade. No fixed number of questions: it keeps going until the answers come back right.
+The questions come from your material, not from a generic question bank. Each part starts with an easy question on its key idea. Each answer is graded the moment you send it. When it's off, you get the right answer for that question, usually the *why*, without hints or "try again", and the next question goes deeper on that part and builds on the fix. A right answer that covers the part moves you on, and one that leaves more to cover takes you deeper. A part gets at most 4 questions, and whatever is left after that goes in the wrap-up. If the gap is in the basics underneath, the grade covers them in a line and the quiz stays on your material. Ask something back instead of answering and it answers, because your question shows exactly what isn't clear yet. Push back on a grade with a good reason and it changes the grade.
 
 ## A graded answer
 
 ```
+Quizzing on the proposal in 3 parts: who needs two approvals · how risk
+is decided · keeping the risky paths current
+
 Question 3: what happens if a risky change is labelled low-risk
 
 > Nothing much, a reviewer would just catch it.
 
 ❌ Not quite. The labelling isn't manual; the paths decide it. The real
 risk is a new risky path nobody added to the list, which then gets one
-approval. That's why the proposal includes a quarterly path review.
+approval.
+Part 2/3 · ✅1 🟡1 ❌1
 
-Question 4: the quarterly path review
-Say someone adds a new payments/ folder in May. What has to happen for it
-to keep two approvals, and what covers it until then?
+Question 4: why a new folder slips through
+Someone adds a new payments/ folder in May. How many approvals does a
+change to it get?
 ```
 
 ## When it runs
@@ -58,10 +66,11 @@ It works in any agent that reads skills, including Claude (chat, Cowork and Clau
 ## It's working if
 
 - Every question is about your material, not generic trivia or the general basics behind it.
-- Each answer is graded before the next question, where you can read it.
-- A wrong answer tells you what was missing and why, not a hint.
+- Each answer is graded before the next question, where you can read it, with a progress line.
+- A wrong answer tells you what was missing and why for that question, not a hint and not a lecture.
+- A question asks one thing, and the next one builds on the fix instead of repeating it.
 - A question you ask back gets a real answer, and a good pushback changes the grade.
-- It ends when you've got it, not after a set number of questions.
+- It ends when every part is done, not after a set number of questions.
 - You can skip a question or stop the quiz anytime, with no argument.
 
 ## Install
