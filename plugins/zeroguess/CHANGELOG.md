@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- New icon.
+
 ## 1.1.1
 
 - Requests to be quizzed on a topic no longer trigger the skill. It is for settling a task before doing it, not for testing what the user knows.
